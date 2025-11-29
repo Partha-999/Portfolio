@@ -17,6 +17,7 @@
         "type": "Group",
         "config": {
           "label": "Nav Item",
+          "repeat": true,
           "fields": {
             "link": {
               "type": "Link",
