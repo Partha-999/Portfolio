@@ -1,5 +1,6 @@
 "use client";
-
+import createSDFGenerator from 'webgl-sdf-generator';
+import bidiFactory from 'bidi-js';
 import * as THREE from "three";
 import { Canvas } from "@react-three/fiber";
 import { ContactShadows, Float, Environment } from "@react-three/drei";
