@@ -77,15 +77,16 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         <Shapes />
         <div className="col-start-1 md:row-start-1 " data-speed=".2">
           <h1
-            className="mb-8 text-[clamp(3rem,20vmin,20rem)] font-extrabold leading-none tracking-tighter"
+            className="mb-8 text-[clamp(3rem,18vmin,20rem)] font-extrabold leading-none tracking-tighter"
             aria-label={
               slice.primary.first_name + " " + slice.primary.last_name
             }
           >
-            <span className="block text-slate-300 ">
+            <span className="block whitespace-nowrap text-slate-300">
               {renderLetters(slice.primary.first_name, "first")}
             </span>
-            <span className="-mt-[.2em] block text-slate-500  ">
+
+            <span className="-mt-[.2em] block whitespace-nowrap text-slate-500">
               {renderLetters(slice.primary.last_name, "last")}
             </span>
           </h1>
