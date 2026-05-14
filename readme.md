@@ -1,4 +1,4 @@
-# Partha Sarathi Portfolio 🚀
+# Parthasarathi Portfolio 🚀
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
