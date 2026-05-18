@@ -2,9 +2,14 @@
 import { useEffect, useRef } from "react";
 import { Content, KeyTextField } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
-import { Shapes } from "@/slices/Hero/Shapes";
+import dynamic from "next/dynamic";
 import Bounded from "@/components/Bounded";
 import gsap from "gsap";
+
+const Shapes = dynamic(
+  () => import("@/slices/Hero/Shapes").then((mod) => mod.Shapes),
+  { ssr: false }
+);
 
 /**
  * Props for `Hero`.
